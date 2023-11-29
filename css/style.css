@@ -13,6 +13,8 @@ h1{
     font-family: Heebo, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
     text-align: center;
+    font-size: 35px;
+    margin: 15px;
 }
 
 h2{
@@ -20,11 +22,7 @@ h2{
     font-weight: 700;
     text-align: center;
     padding-top: 10px;
-}
-
-data-title{
-  font-size: 20px;
-  color: #bbb;
+    font-size: 20px;
 }
 
 nav{
@@ -63,6 +61,15 @@ img{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     object-fit: cover;
+}
+
+a{
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover{
+  font-size: larger;
 }
 
 .lb{
@@ -113,6 +120,7 @@ p{
     text-align: center;
     font-size: 20px;
     font-family: Heebo, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
 }
 
 .footer{
@@ -190,6 +198,7 @@ p{
     gap: 10px;
     margin: auto;
     margin-top: 5px;
+    font-family: Heebo, 'Arial Narrow Bold', sans-serif;
   }
 
   .button-group .button :hover{
@@ -230,7 +239,12 @@ header img{
 
 .lb-data .lb-caption{
     font-size: 50px;
-    color: #C6F0B3;
+    color:white;
+    font-family: Heebo, 'Arial Narrow Bold', sans-serif;
+}
+
+.lb-data .lb-details .lbnumber{
+  font-family: Heebo, 'Arial Narrow Bold', sans-serif;
 }
 
   a img{
